@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="./myStyle.css" />
 
     <title>tweets analysis</title>
+    <style>
+      #welcome-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
   </head>
   <body>
     <!-- starting navbar -->
@@ -31,8 +38,8 @@
             ></a>
             <ul class="dropdown-menu">
               <li><a href="prolificTweets.html">prolific tweets</a></li>
-              <li><a href="#">Retweets</a></li>
-              <li><a href="#">Timeline</a></li>
+              <li><a href="retweets.html">Retweets</a></li>
+              <li><a href="timeline.html">Timeline</a></li>
             </ul>
           </li>
           <!-- dropdown ends here -->
@@ -42,24 +49,39 @@
     </nav>
 
     <div class="container">
-      <h2 class="text-center">WELCOME TO TURNTABL TWITTER ANALYSIS APP</h2>
-      <p>
-        maybe i will put some text too here
+      <h2 class="text-center">
+        WELCOME TO TURNTABL TWITTER ANALYSIS APP
+      </h2>
+      <p class="text-center text-muted">
+        your leading analysis web app
       </p>
 
       <!-- grouped buttons here -->
-      <div class="btn-group-vertical ">
+      <div class="btn-group-vertical">
         <button type="button" class="btn btn-primary">
           most prolific tweeters
         </button>
         <br />
-        <button type="button" class="btn btn-primary">most Retweeters</button>
+        <button type="button" class="btn btn-primary">
+          most Retweeters
+        </button>
         <br />
         <button type="button" class="btn btn-primary">timeline</button>
       </div>
 
       <!-- group buttons end -->
     </div>
+
+    <!-- image -->
+    <!-- <div class="container">
+      <img
+        id=" #welcome-img"
+        src="./undraw_social_strategy_1wuq.svg"
+        alt="image here"
+        style="width:auto; height:245px"
+      />
+    </div> -->
+    <!-- end of image -->
 
     <!-- footer creation -->
     <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">

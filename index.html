@@ -14,11 +14,9 @@
 
     <title>tweets analysis</title>
     <style>
-      #welcome-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
+    body {
+   background: url(undraw_social_strategy_1wuq.svg);
+}
     </style>
   </head>
   <body>
@@ -49,7 +47,7 @@
     </nav>
 
     <div class="container">
-      <h2 class="text-center">
+      <h2 class="text-center font-weight-bold">
         WELCOME TO TURNTABL TWITTER ANALYSIS APP
       </h2>
       <p class="text-center text-muted">
@@ -57,16 +55,15 @@
       </p>
 
       <!-- grouped buttons here -->
+<div class="container-fluid">
       <div class="btn-group-vertical">
-        <button type="button" class="btn btn-primary">
-          most prolific tweeters
-        </button>
-        <br />
-        <button type="button" class="btn btn-primary">
-          most Retweeters
-        </button>
-        <br />
-        <button type="button" class="btn btn-primary">timeline</button>
+        <a href="prolificTweets.html" class="btn btn-primary" role="button">most prolific tweets</a>
+        <br>
+        <a href="retweets.html" class="btn btn-primary" role="button">most retweets</a>
+        <br>
+        <a href="timeline.html" class="btn btn-primary" role="button">timeline</a>
+        <br>
+       
       </div>
 
       <!-- group buttons end -->
